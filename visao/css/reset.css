@@ -1,0 +1,60 @@
+/* ############ RESET GLOBAL ################ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,  th  {
+ margin: 0;
+ border: 0;
+ outline: 0;
+ vertical-align: baseline;
+ background: transparent;
+ border-collapse: collapse;
+ border-spacing: 0;
+ text-decoration: none;
+}
+ 
+img a, a img{border: none;}
+blockquote, q {quotes: none;}
+ 
+blockquote:before, blockquote:after, q:before, q:after {
+content: ""; content: none;
+}
+ 
+html{font-size: 16px;}
+ 
+body {
+ font: 83% Verdana, Geneva, sans-serif;
+ line-height: 150%;
+ color: #666;
+}
+ 
+/* ############ LINKS ################ */
+a {color: #000;}
+a:hover {color: #666;}
+a:visited {color: #999;}
+ 
+/* ############ CABEÃ‡ALHOS ############ */
+h1, h2, h3, h4, h5, h6{
+font-family: Arial, Helvetica, sans-serif;
+}
+ 
+h1 {font-size: 180%;}
+h2 {font-size: 160%;}
+h3 {font-size: 140%;}
+h4 {font-size: 130%;}
+h5 {font-size: 120%;}
+h6 {font-size: 120%;}
+ 
+/* ############ CLASSES COMUNS ############ */
+.clear{clear: both;}
+ 
+.imgLeft{
+ float: left;
+ padding: 0 6px 3px 0;
+}
+.imgRight{
+ float: right;
+ padding: 0 0 3px 6px;
+}

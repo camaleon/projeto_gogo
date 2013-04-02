@@ -1,0 +1,466 @@
+body{
+	
+	background-image: url("../imagens/pattern.jpg");
+	font-family: verdana, arial, verdana;
+}
+@font-face {
+font-family: "satisfaction";
+src: url("../font/satisfaction.ttf");
+
+}
+/*
+@keyframes boat{
+	0% {-webkit-transition: 3s;
+		-webkit-transform: rotateY(0deg);
+		}
+	50% {-webkit-transition: 3s;
+		-webkit-transform: rotateY(40deg);
+		}
+	}
+	100% {-webkit-transition: 3s;
+		-webkit-transform: rotateY(0deg);
+		}
+	}
+*/
+@-webkit-keyframes boat {
+  from { -webkit-transition: 2s;
+  	-webkit-transform:
+ rotate(0deg);
+	 }
+  25%{ -webkit-transition: 2s;
+	-webkit-transform:
+ rotate(-5deg); }
+  75%{ -webkit-transition: 2s;
+	-webkit-transform:
+ rotate(5deg); }
+   to   { -webkit-transition: 2s;
+	-webkit-transform:
+ rotate(0deg); }
+}
+
+/*------ topo----------*/
+
+#ceu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	background-color: #dcdcdc;
+	border-bottom: 1px solid #aaaaab;
+	
+}
+
+#pagina{
+	width: 1024px;
+	
+	position:absolute;
+	margin-left:50%;
+	left:-512px;
+	top: 60px;
+	
+}
+#violao{
+	width: 1024px;
+	height: 194px;
+	position: absolute;
+	top: 40px;
+
+}
+#barco{
+	-webkit-animation: boat  infinite linear;
+	-webkit-animation-duration:4s;
+	position: absolute;
+	top: 145px;
+	left: 470px;
+	width: 29px;
+	height: 40px;
+
+
+	
+}
+
+#titulo{position: absolute;
+	top: 10px;
+	left: 650px;
+	font-family: "satisfaction";
+	font-size: 40px;
+	color: #0095da;
+	
+}
+/*----Menu principal--------*/
+#menu{
+	position: absolute;
+	top: 100px;
+	left: 600px;
+	width: 350px;
+	height: 30px;
+	color: #000;
+	
+	
+}
+
+.home{
+	position: absolute;
+	top: 0px;
+	left: -131px;
+	
+	height: 20px;
+	background-color: #ccc;
+padding: 8px;
+border-radius: 3px;
+text-align: center;
+cursor: pointer;
+}
+.quem_sou{
+	position: absolute;
+	top: 0px;
+	left: -66px;
+	
+	height: 20px;
+	background-color: #ccc;
+padding: 8px;
+border-radius: 3px;
+text-align: center;
+cursor: pointer;
+}
+
+.contato{
+	position: absolute;
+		top: 0px;
+	left: 322px;
+	
+	height: 20px;
+	background-color: #ccc;
+padding: 8px;
+border-radius: 3px;
+text-align: center;
+cursor: pointer;
+	
+}
+#foto_malvezzi{
+position: absolute;
+	top: 250px;
+	left: 695px;
+	width: 158px;
+	height: 235px;
+	text-align: left;
+	font-size: 17px;
+	color: #000;
+
+	
+}
+#texto_malvezzi{
+color: #000000;
+    font-size: 12px;
+    height: 100px;
+    left: 695px;
+    position: absolute;
+    text-align: left;
+    top: 452px;
+    width: 330px;
+    text-align: justify;
+    
+
+	
+	
+}
+.livros{
+background-color: #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    left: 28px;
+    padding: 8px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 60px;
+    height: 20px;
+
+}
+.livros_saldo{
+background-color: #0095DA;
+    border-radius: 70px;
+    cursor: pointer;
+    display: none;
+    left: 90px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    z-index: 3;
+    font-size: 12px;
+}
+.artigos{
+position: absolute;
+cursor: pointer;
+top:-1px;
+width: 70px;
+height: 20px;
+background-color: #ccc;
+text-align: center;
+padding: 8px;
+z-index: 2;
+border-radius: 3px;
+left: 117px;
+
+}
+.artigos_saldo{
+position: absolute;
+left: 187px;
+top:-10px;
+display: none;
+background-color: #0095da;
+padding: 5px;
+text-align: center;
+border-radius: 70px;
+z-index: 3;
+font-size: 12;
+}
+.musicas{
+top:-1px;
+position: absolute;
+text-align: center;
+background-color: #ccc;
+padding: 8px;
+width: 80px;
+cursor: pointer;
+border-radius: 3px;
+height: 20px;
+left: 215px;
+}
+.musicas_saldo{
+background-color: #0095DA;
+    border-radius: 70px;
+    display: none;
+    left: 292px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    z-index: 3;
+    font-size: 12;
+}
+
+/*----conteudo -------*/
+
+/*----artigos -------*/
+
+#chamada_artigos{
+	width: 110px;
+	text-align: justify;
+	position: relative;
+	top: -35px;
+	padding: 8px;
+	color: #000;
+	font-size: 14px;
+	padding: 8px;
+	background-color: #8ed8f8;
+	border: 2px 2px 0px 0px solid #ccc;
+	border-radius: 5px;
+	
+
+}
+#artigos_bloco{
+	width: 600px;
+	text-align: justify;
+	position: relative;
+	top: 10px;
+
+}
+.artigo{
+	padding-bottom: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+
+}
+.titulo_artigo{
+	
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #6b6969;
+	font-weight: bold;
+
+}
+
+/*----links -------*/
+
+#chamada_links{
+	
+	text-align: justify;
+	position: absolute;
+	top: 700px;
+	left: 700px;
+	
+	color: #000;
+	font-size: 14px;
+	
+	width: 64px;
+	
+
+
+
+	padding: 8px;
+	color: #000;
+	font-size: 14px;
+	padding: 10px;
+	background-color: #8ed8f8;
+	
+	border-radius: 5px;
+	
+
+}
+#links_acesso{
+	
+	text-align: justify;
+	position: absolute;
+	top: 712px;
+	left: 750px;
+	width: 15px;
+	height: 12px;
+	cursor: pointer;
+	
+	
+	
+}
+#links_bloco{
+	width: 320px;
+	text-align: justify;
+	position: absolute;
+	top: 750px;
+	left: 700px;
+
+
+}
+.links{
+	padding-bottom: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: justify;
+	/*border-top: 2px solid #ccc;*/
+	display: none;
+
+}
+.titulo_links{
+	border-bottom: solid 2px #b59b58;
+	font-size: 18px;
+	padding-bottom: 5px;
+
+}
+
+.origem_link{
+	padding-top: 10px;
+	text-decoration: underline;
+
+}
+/*----videos-------*/
+
+#chamada_videos{
+	
+	text-align: justify;
+	position: relative;
+	border-radius: 5px;
+	top: 15px;
+	left: 0px;
+	padding: 10px;
+
+	color: #000;
+	font-size: 14px;
+	background-color: #8ed8f8;
+	width: 70px;
+
+	
+}
+#videos_acesso{
+	
+	
+	position: relative;
+	top: -8px;
+	left: 58px;
+	width: 15px;
+	height: 12px;
+	cursor: pointer;
+	
+	
+	
+}
+#videos_bloco{
+	width: 300px;
+	text-align: justify;
+	top: 30px;
+	position: relative;
+	display: none;
+	
+	}
+	#video{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	/*----som-------*/
+
+#chamada_som{
+	
+	
+	position: relative;
+	
+	left: 0px;
+	width: 60px;
+	color: #000;
+	font-size: 14px;
+	padding: 5px;
+	background-color: #8ed8f8;
+	width: 292px;
+
+
+	border-radius: 5px;
+	top: 34px;
+	left: 0px;
+	padding: 10px;
+
+	
+	
+	
+	width: 70px;
+}
+#som_bloco{
+	width: 300px;
+	
+	top: 85px;
+	position: relative;
+	display: none;
+	
+	}
+#som{width: 300px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+.titulo_som{
+	padding-bottom: 5px;
+	font-size: 12px;
+	color: #6b6969;
+}
+
+
+
+#footer{
+	
+	top: 100px;
+	left: 0px;
+	height: 200px;
+	width: 100%;
+	background-color: #dcdcdc;
+	border-bottom: 1px solid #aaaaab;
+	position: relative;
+	
+}
+/*conteudo dos includes-----------------------*/
+#conteudo{
+	position:relative;
+	top: 300px;
+	left: 0px;
+	width: 650px;
+	font-size: 14px;
+	text-align: justify;
+}

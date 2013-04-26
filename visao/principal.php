@@ -1,29 +1,70 @@
 <div id="chamada_artigos">Últimos artigos</div>
 	<div id="artigos_bloco">
+            <?php
+            $temp5 = 0;
+                foreach ($consulta5 as $value) {
+                    if($temp5 < 3){
+            ?>
 		<div class="artigo">
 			<div class="titulo_artigo">
 				 <hr><br>
-				Lorem Ipsum is simply - 13/02/2010
+                                 <?php echo utf8_encode($value->titulo)." - ".date("d/m/Y",$value->data);?>
 			</div>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+                        <?php echo utf8_encode($value->conteudo);?>
 		</div>
-		<div class="artigo">
-			<div class="titulo_artigo">
-				 <hr><br>
-				Lorem Ipsum is simply - 13/02/2013
-			</div>
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</div>
-		<div class="artigo">
-			<div class="titulo_artigo">
-				 <hr><br>
-				Lorem Ipsum is simply - 7/07/2012
-			</div>
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</div>
+            <?php }$temp5 = $temp5 + 1;}?>
 	</div>
+
+    <!-- menu lateral -->
+
+    <div id="foto_malvezzi" class="borda_branca"><img src="imagens/malvezzi.jpg" ></div>
+    <div id="texto_malvezzi">
+        Roberto Malvezzi é graduado em Estudos Sociais e em Filosofia pela Faculdade Salesiana de Filosofia Ciências e Letras de Lorena, em São Paulo. Também é graduado em Teologia pelo Instituto 
+        Teológico de São Paulo. Atualmente atua na Comissão Pastoral da Terra – CPT. 
+        Roberto Malvezzi é graduado em Estudos Sociais e em Filosofia pela Faculdade Salesiana de Filosofia Ciências e Letras de Lorena, em São Paulo. Também é graduado em Teologia pelo Instituto 
+        Teológico de São Paulo. Atualmente atua na Comissão Pastoral da Terra... <br><br><a href="http://www.robertomalvezzi.com.br/visao/index.php?pagina=1">Ler mais</a>
+    </div>
+    <div id="chamada_links">Links</div>
+        <div id="links_acesso"><img src="imagens/close.png"></div>
+        <div id="links_bloco">
+        <div class="links">
+               <?php 
+                       $temp4 = 0;
+                       foreach ($consulta4 as $value) {
+                           if($temp4 < 3){
+                    ?>    
+                <div class="links">
+             <hr><br>
+                         <?php echo $value->link;?>
+            <div class="origem_link"><?php echo $value->descricao;?></div>      
+            
+        </div>
+                <?php }$temp4 = $temp4 + 1;}?>
+                </div>    
+            <!-- som -->
+        <div id="chamada_videos">Vídeos</div>
+        <div id="videos_acesso"><img src="imagens/open.png"></div>
+        <div id="videos_bloco">
+                 <?php 
+                 $temp3 = 0;
+                 foreach ($consulta3 as $value) {
+                     if($temp3<3){
+                         $value->link = str_replace('320','315',$value->link); 
+                         $value->link = str_replace('420','320',$value->link);
+                         
+                     ?>
+                    
+        <div id="video"><?php echo $value->link;?></div>
+                <?php }$temp3 = $temp3 +1;}?>
+        </div>
+        <!-- som-->
+        <div id="chamada_som">Músicas</div>
+        <div id="som_bloco">
+        <div id="som"><div class="titulo_som">Meu sertão</div><audio src="teste.mp3" controls="true" autoplay="true" /></div>
+        <div id="som"><div class="titulo_som">Rio verde</div><audio src="teste.mp3" controls="true" autoplay="true" /></div>
+        <div id="som"><div class="titulo_som">O sol e o sertão</div><audio src="teste.mp3" controls="true" autoplay="true" /></div>
+        
+        
+        </div>
+
+        <!--div final link-->

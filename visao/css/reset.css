@@ -32,8 +32,23 @@ body {
  
 /* ############ LINKS ################ */
 a {color: #000;}
-a:hover {color: #666;}
-a:visited {color: #999;}
+  a:link{
+    	background-color: #dcdcdc;
+		border: 1px solid #aaaaab;
+	    padding: 7px;
+	    color: #000;
+    }
+a:hover {}
+a:visited {background-color: #dcdcdc;
+		border: 1px solid #aaaaab;
+	    padding: 7px;
+	    color: #000;}
+
+a.musica_baixar:link{
+    	background-color: #dcdcdc;
+		border: 1px solid #aaaaab;
+	   
+   }
  
 /* ############ CABEÃ‡ALHOS ############ */
 h1, h2, h3, h4, h5, h6{

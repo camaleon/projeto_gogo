@@ -1,4 +1,6 @@
-
+<div id="ceu"></div>
+<br><br>
+<div id="conteudo">
 <form method="post" action="indexAdmin.php?pagina=43" >
 <table width="100%%">
   <tr>
@@ -8,5 +10,5 @@
 </table>
 </form>
 <?php echo $consulta1?>
-  
+  </div>
 

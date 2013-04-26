@@ -1,9 +1,91 @@
-Roberto Malvezzi é graduado em Estudos Sociais e em Filosofia pela Faculdade Salesiana de Filosofia Ciências e Letras de Lorena, em São Paulo. Também é graduado em Teologia pelo Instituto Teológico de São Paulo. Atualmente atua na Comissão Pastoral da Terra – CPT.
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<!--Roberto Malvezzi (“Gogó”), nasceu em 1953, no município de Potirendaba, São Paulo. É
+graduado em Estudos Sociais e em Filosofia pela Faculdade Salesiana de Filosofia, Ciências e
+Letras de Lorena, em São Paulo. Também é graduado em Teologia pelo Instituto Teológico de
+São Paulo.
+<br><br>
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
- 
+Chegou ao interior da Bahia em Janeiro de 1979, para ficar um mês nas comunidades rurais
+de Campo Alegre de Lourdes, divisa com o Piauí. Era um trabalho organizado pela paróquia da
+cidade.<br><br>
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Ali, um mês inteiro, numa comunidade chamada Pajeú, viveu um choque e uma mudança.
+Primeiro, a situação de pobreza da população, particularmente a água vermelha dos barreiros
+que o povo – e o seu grupo também – bebiam todos os dias. Segundo, em meio a tantas
+dificuldades, a imensa generosidade expressa no acolhimento do povo. São cenas que afirma
+não ter como esquecer jamais.
+<br><br>
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from t
+Assim, decidiu ficar. Em janeiro de 1980, voltou para morar. Ficou em Campo Alegre por
+quatro anos como voluntário. Então, incorporou-se definitivamente nas Pastorais Sociais da
+Diocese de Juazeiro, tendo sido Coordenador Nacional por aproximadamente 6 (seis) anos da
+Comissão Pastoral da Terra - CPT.
+<br><br>
+
+Ao longo dos anos, lutou contra o regime militar, na defesa dos direitos das populações
+realocadas em razão da barragem de Sobradinho, na luta pela convivência com o semiárido,
+expressa, sobretudo, na captação da água de chuva para beber e produzir.
+<br><br>
+Além disso, sempre atuou como escritor, seja escrevendo artigos, seja escrevendo livros, além
+de conciliar suas atividades com a composição de músicas, as quais revelam parte do seu
+trabalho político e do seu lado religioso.
+<br><br>
+Casado, teve com sua esposa dois filhos e duas filhas, todos baianos.
+<br><br>
+Atualmente, reside em Juazeiro-BA e atua na Equipe CPP/CPT do São Francisco.-->
+
+
+
+
+<TABLE WIDTH=1024 CELLPADDING=4 CELLSPACING=0 color='#000000'>
+	<COL WIDTH=150>
+	<COL WIDTH=425>
+	<TR VALIGN=TOP>
+		<TD WIDTH=180 HEIGHT=312> 
+			<P><IMG SRC="imagens/roberto.jpg" class="borda_branca_pura" ALIGN=LEFT WIDTH=240 HEIGHT=300 BORDER=0><BR>
+			</P>
+		</TD>
+		<TD WIDTH=600 >
+			<P><b>Roberto Malvezzi (“Gogó”)</b>, nasceu em 1953, no município
+			de Potirendaba, São Paulo. É graduado em Estudos Sociais e em
+			Filosofia pela Faculdade Salesiana de Filosofia, Ciências e
+			Letras de Lorena, em São Paulo. Também é graduado em Teologia
+			pelo Instituto Teológico de São Paulo. <BR><BR>Chegou ao
+			interior da Bahia em Janeiro de 1979, para ficar um mês nas
+			comunidades rurais de Campo Alegre de Lourdes, divisa com o Piauí.
+			Era um trabalho organizado pela paróquia da cidade.<BR><BR>Ali,
+			um mês inteiro, numa comunidade chamada Pajeú, viveu um choque e
+			uma mudança. Primeiro, a situação de pobreza da população,
+			particularmente a água vermelha dos barreiros que o povo – e o
+			seu grupo também – bebiam todos os dias. Segundo, em meio a
+			tantas dificuldades, a imensa generosidade expressa no acolhimento
+			do povo. São cenas que afirma não ter como esquecer jamais.
+			Assim, decidiu ficar. <br>Em janeiro de 1980, voltou para morar.
+			Ficou em Campo Alegre por quatro anos como voluntário. Então,
+			incorporou-se definitivamente nas Pastorais Sociais da Diocese de
+			Juazeiro, tendo sido Coordenador Nacional por aproximadamente 6
+			(seis) anos da Comissão Pastoral da Terra - CPT.  <BR><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 WIDTH=633 HEIGHT=293 VALIGN=TOP >
+			<br><br>
+					<P>Assim, decidiu ficar. Em janeiro de 1980, voltou para morar.
+			Ficou em Campo Alegre por quatro anos como voluntário. Então,
+			incorporou-se definitivamente nas Pastorais Sociais da Diocese de
+			Juazeiro, tendo sido Coordenador Nacional por aproximadamente 6
+			(seis) anos da Comissão Pastoral da Terra - CPT. <BR><BR>Ao longo
+			dos anos, lutou contra o regime militar, na defesa dos direitos
+			das populações realocadas em razão da barragem de Sobradinho,
+			na luta pela convivência com o semiárido, expressa, sobretudo,
+			na captação da água de chuva para beber e produzir. <BR><BR>Além
+			disso, sempre atuou como escritor, seja escrevendo artigos, seja
+			escrevendo livros, além de conciliar suas atividades com a
+			composição de músicas, as quais revelam parte do seu trabalho
+			político e do seu lado religioso. <BR><BR>Casado, teve com sua
+			esposa dois filhos e duas filhas, todos baianos. <BR><BR>Atualmente,
+			reside em Juazeiro-BA e atua na Equipe CPP/CPT do São Francisco. 
+			</P>
+		</TD>
+	</TR>
+</TABLE>

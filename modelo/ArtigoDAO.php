@@ -36,16 +36,19 @@ class ArtigoDAO {
             $sql = "INSERT INTO artigos(id,
                 titulo,
                 conteudo,
+                link,
                 data)
                 VALUES(:id,
                 :titulo,
                 :conteudo,
+                :link,
                 :data)";
             
             $stmt = $this->con->prepare($sql);
             $stmt->bindValue(':id',utf8_decode($objArtigo->id));
             $stmt->bindValue(':titulo',utf8_decode($objArtigo->titulo));
             $stmt->bindValue(':conteudo',utf8_decode($objArtigo->conteudo));
+            $stmt->bindValue(':link',utf8_decode($objArtigo->link));
             $stmt->bindValue(':data',utf8_decode($objArtigo->data));
             $stmt->execute();
             if($stmt->rowCount()>0){
@@ -61,6 +64,7 @@ class ArtigoDAO {
     $sql = "UPDATE artigos SET 
         titulo=:titulo,
         conteudo=:conteudo,
+        link=:link
         data=:data
         WHERE id=:id";
     
@@ -69,10 +73,11 @@ class ArtigoDAO {
     $stmt->bindValue(":id",$id);
     $stmt->bindValue(":titulo",utf8_decode($objArtigo->titulo));
     $stmt->bindValue(":conteudo",utf8_decode($objArtigo->conteudo));
+    $stmt->bindValue(":link",utf8_decode($objArtigo->link));
     $stmt->bindValue(":data",$objArtigo->data);
-   
+    
     $stmt->execute();                 
-
+    
     if($stmt->rowCount()>0){
             $this->message = "Dados alterados com sucesso.";
     }else{
@@ -113,6 +118,7 @@ class ArtigoDAO {
                     $artigo = new Artigo($value['id'],
                             $value['titulo'],
                             $value['conteudo'],
+                            $value['link'],
                             $value['data']);
                     
                     array_push($this->artigos, $artigo);
@@ -140,6 +146,7 @@ class ArtigoDAO {
              $artigo = new Artigo($value['id'],
                     $value['titulo'],
                     $value['conteudo'],
+                     $value['link'],
                      $value['data']);
             array_push($this->artigos, $artigo);
 
@@ -154,7 +161,7 @@ class ArtigoDAO {
         
     public function consultarTodosArtigos(){
         $this->artigos = Array();
-        $sql = "SELECT * FROM artigos";
+        $sql = "SELECT * FROM artigos ORDER BY id DESC";
         $resultado = $this->con->query($sql);
         
         if($resultado->rowCount()>0){
@@ -162,6 +169,7 @@ class ArtigoDAO {
              $artigos = new Artigo($value['id'],
                     $value['titulo'],
                     $value['conteudo'],
+                    $value['link'], 
                     $value['data']);
             array_push($this->artigos, $artigos);
 

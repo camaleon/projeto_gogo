@@ -1,3 +1,7 @@
+<div id="ceu"></div>
+<br><br>
+<div id="conteudo">
+
 <?php
 if(empty($_POST['numMusicas'])){
 ?>
@@ -54,4 +58,4 @@ if(empty($_POST['numMusicas'])){
 <?php
 }
 ?>    
-
+</div>

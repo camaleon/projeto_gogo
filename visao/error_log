@@ -1,0 +1,44 @@
+[25-Apr-2013 19:37:42] PHP Warning:  require_once(.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/rober192/public_html/visao/index.php on line 93
+[25-Apr-2013 19:37:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rober192/public_html/visao/index.php on line 93
+[25-Apr-2013 20:18:07] PHP Warning:  Missing argument 5 for Artigo::__construct(), called in /home/rober192/public_html/controle/ControladorAdmin.php on line 687 and defined in /home/rober192/public_html/modelo/Artigo.php on line 12
+[25-Apr-2013 20:18:17] PHP Warning:  Missing argument 5 for Artigo::__construct(), called in /home/rober192/public_html/controle/ControladorAdmin.php on line 687 and defined in /home/rober192/public_html/modelo/Artigo.php on line 12
+[25-Apr-2013 20:28:53] PHP Warning:  Missing argument 5 for Artigo::__construct(), called in /home/rober192/public_html/controle/ControladorAdmin.php on line 687 and defined in /home/rober192/public_html/modelo/Artigo.php on line 12
+[25-Apr-2013 21:15:26] PHP Fatal error:  Class 'Controlador' not found in /home/rober192/public_html/controle/modulo.php on line 21
+[25-Apr-2013 21:15:29] PHP Fatal error:  Class 'Controlador' not found in /home/rober192/public_html/controle/modulo.php on line 32
+[25-Apr-2013 21:15:32] PHP Fatal error:  Class 'Controlador' not found in /home/rober192/public_html/controle/modulo.php on line 21
+[25-Apr-2013 21:43:59] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:19] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:23] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:30] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:34] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:37] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:38] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:39] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:40] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:41] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:42] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:43] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:43] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:44] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:45] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 21:44:48] PHP Parse error:  syntax error, unexpected T_CASE in /home/rober192/public_html/controle/Controlador.php on line 309
+[25-Apr-2013 22:00:38] PHP Parse error:  syntax error, unexpected $end in /home/rober192/public_html/controle/Controlador.php on line 186
+[25-Apr-2013 22:29:44] PHP Warning:  ftp_put() [<a href='function.ftp-put'>function.ftp-put</a>]: Can't open that file: No such file or directory in /home/rober192/public_html/modelo/UploadFTP.php on line 103
+[25-Apr-2013 22:29:44] PHP Warning:  ftp_put() [<a href='function.ftp-put'>function.ftp-put</a>]: Can't open that file: No such file or directory in /home/rober192/public_html/modelo/UploadFTP.php on line 103
+[25-Apr-2013 22:29:44] PHP Warning:  ftp_put() [<a href='function.ftp-put'>function.ftp-put</a>]: Can't open that file: No such file or directory in /home/rober192/public_html/modelo/UploadFTP.php on line 103
+[25-Apr-2013 22:29:44] PHP Warning:  ftp_put() [<a href='function.ftp-put'>function.ftp-put</a>]: Can't open that file: No such file or directory in /home/rober192/public_html/modelo/UploadFTP.php on line 103
+[25-Apr-2013 22:33:21] PHP Warning:  rmdir(albuns/acaçaõ) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in /home/rober192/public_html/controle/ControladorAdmin.php on line 274
+[25-Apr-2013 23:15:56] PHP Warning:  rmdir(albuns/acação) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in /home/rober192/public_html/controle/ControladorAdmin.php on line 274
+[26-Apr-2013 00:16:15] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rober192/public_html/controle/Controlador.php on line 246
+[26-Apr-2013 00:56:55] PHP Parse error:  syntax error, unexpected ';' in /home/rober192/public_html/controle/Controlador.php on line 266
+[26-Apr-2013 01:08:14] PHP Fatal error:  Class 'Controlador' not found in /home/rober192/public_html/controle/modulo.php on line 32
+[26-Apr-2013 01:08:25] PHP Fatal error:  Class 'Controlador' not found in /home/rober192/public_html/controle/modulo.php on line 32
+[26-Apr-2013 08:08:45] PHP Warning:  require_once(.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/rober192/public_html/visao/index.php on line 94
+[26-Apr-2013 08:08:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rober192/public_html/visao/index.php on line 94
+[26-Apr-2013 08:09:18] PHP Warning:  rmdir(albuns/Sertão da seca) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in /home/rober192/public_html/controle/ControladorAdmin.php on line 274
+[26-Apr-2013 09:51:30] PHP Warning:  Missing argument 5 for Artigo::__construct(), called in /home/rober192/public_html/controle/ControladorAdmin.php on line 688 and defined in /home/rober192/public_html/modelo/Artigo.php on line 12
+[26-Apr-2013 10:30:00] PHP Warning:  require_once(.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/rober192/public_html/visao/index.php on line 94
+[26-Apr-2013 10:30:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rober192/public_html/visao/index.php on line 94
+[26-Apr-2013 10:30:43] PHP Warning:  Missing argument 5 for Artigo::__construct(), called in /home/rober192/public_html/controle/ControladorAdmin.php on line 688 and defined in /home/rober192/public_html/modelo/Artigo.php on line 12
+[26-Apr-2013 19:10:09] PHP Warning:  require_once(.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/rober192/public_html/visao/indexAdmin.php on line 19
+[26-Apr-2013 19:10:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rober192/public_html/visao/indexAdmin.php on line 19

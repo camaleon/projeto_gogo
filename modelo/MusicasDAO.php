@@ -84,8 +84,10 @@ class MusicasDAO {
         $resultado = $this->con->query($sql);  
         if(count($resultado)>0){
             foreach ($resultado as $value) {
-                if(strcasecmp($value['cds_tituloAlbun'], utf8_encode($tituloAlbum))== 0){
-                
+                    //var_dump(mb_detect_encoding($tituloAlbum.'x', 'UTF-8, ISO-8859-1'));
+                    //var_dump(mb_detect_encoding(utf8_encode($value['cds_tituloAlbun']).'x', 'UTF-8, ISO-8859-1'));
+                if(strcasecmp(utf8_encode($value['cds_tituloAlbun']), $tituloAlbum)== 0){
+                    
                     $musica = new Musicas($value['cds_id'],
                             $value['cds_tituloAlbun'],
                             $value['cds_faixa'],
@@ -112,11 +114,11 @@ class MusicasDAO {
         
         if($resultado->rowCount()>0){
             foreach ($resultado as $value) {
-                    $cd = new Cds($value['cds_id'],
+                    $musica = new Musicas($value['cds_id'],
                             $value['cds_tituloAlbun'],
                             $value['cds_faixa'],
                             $value['cds_nomeMusica']);
-                    array_push($this->cds, $cd);  
+                    array_push($this->cds, $musica);
             } 
             $this->message = "Foram encontados ".$resultado->rowCount()." album(s)."; 
         }else{
@@ -130,16 +132,16 @@ class MusicasDAO {
         
     public function consultarTodasAlbuns(){
         $this->cds = Array();
-        $sql = "SELECT * FROM cds";
+        $sql = "SELECT * FROM cds ORDER BY cds_id ASC";
         $resultado = $this->con->query($sql);
         
         if($resultado->rowCount()>0){
             foreach ($resultado as $value) {
-                    $cd = new Cds($value['cds_id'],
+                    $musica = new Musicas($value['cds_id'],
                             $value['cds_tituloAlbun'],
                             $value['cds_faixa'],
                             $value['cds_nomeMusica']);
-                    array_push($this->cds, $cd); 
+                    array_push($this->cds, $musica);
             }      
     }
 }
@@ -156,6 +158,19 @@ class MusicasDAO {
        return $temp;
 
     }
+    
+    public function getNumeroMusicas(){
+    $sql = "select COUNT(cds_faixa) FROM cds";
+    $resultado = $this->con->query($sql);
+
+            foreach ($resultado as $value) {
+                //verifica produto idependente de maiusculas e minusculas
+                $temp = $value['COUNT(cds_faixa)'];
+            }
+       return $temp;
+
+    }
+ 
     
     //seleciona todos os albuns retirando repeticoes        
     public function consultarNomeTodosAlbuns(){

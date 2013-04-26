@@ -132,7 +132,7 @@ class VideoDAO {
         
     public function consultarTodasVideos(){
         $this->videos = Array();
-        $sql = "SELECT * FROM videos";
+        $sql = "SELECT * FROM videos ORDER BY id DESC";
         $resultado = $this->con->query($sql);
         
         if($resultado->rowCount()>0){

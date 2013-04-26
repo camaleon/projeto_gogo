@@ -1,4 +1,6 @@
-
+<div id="ceu"></div>
+<br><br>
+</div>
 <form method="post" action="indexAdmin.php?pagina=38" enctype="multipart/form-data">
 <table width="100%%">
   <tr>
@@ -11,5 +13,6 @@
   </tr>
 </table>
 </form>
+</div>
   
 

@@ -20,7 +20,7 @@
 
 
 
-<form action="index.php?pagina=5" method="post">
+<form action="index.php?pagina=20" method="post">
       <table border="0"  width="100%" cellpadding="0" cellspacing="3" >
 	<tr>
 		<td>Insira seu login:</td>

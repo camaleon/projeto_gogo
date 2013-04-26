@@ -99,7 +99,7 @@ class UploadFTP extends Upload{
      */
     function transferirArquivo($arrayArquivo){
         //verifica se arquivo foi enviado ao servidor
-        if(!empty($arrayArquivo['tmp_name'])){  
+        if(!empty($arrayArquivo['tmp_name'])){
            ftp_put($this->conecFTP,$this->dirDestinoArquivo,$arrayArquivo['tmp_name'],FTP_BINARY);
             $this->statusTransferir = true;
         }else{

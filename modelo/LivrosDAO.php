@@ -140,7 +140,7 @@ class LivrosDAO {
         
     public function consultarTodasLivros(){
         $this->livros = Array();
-        $sql = "SELECT * FROM livros";
+        $sql = "SELECT * FROM livros ORDER BY id DESC";
         $resultado = $this->con->query($sql);
         
         if($resultado->rowCount()>0){

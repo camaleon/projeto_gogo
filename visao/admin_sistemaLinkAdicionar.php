@@ -1,3 +1,7 @@
+<div id="ceu"></div>
+<br><br>
+<div id="conteudo">
+
 <form name="video" method="post" action="indexAdmin.php?pagina=53" enctype="multipart/form-data">
 <table width="100%%">
   <tr>
@@ -16,3 +20,4 @@
   </tr>
 </table>
 </form>
+</div>

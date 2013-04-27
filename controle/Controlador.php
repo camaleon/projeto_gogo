@@ -158,7 +158,7 @@ switch ($valorPagina) {
                                           <td align="center">            
                                             <table width="100%">
                                             <tr>
-                                            <td><img src="livros/'.utf8_encode($value->capa).'"></td>
+                                            <td><img src="livros/'.utf8_encode($value->capa).'" class="borda_branca_pura"></td>
                                             <td valign=top><b>'.utf8_encode($value->nome).'</b><br>
                                             <br>'.utf8_encode($value->resumo).'
                                             <br>'.utf8_encode($value->caracteristicas).'<br>

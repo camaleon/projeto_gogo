@@ -1,7 +1,7 @@
 
 window.onload = function(){
 
-
+//data table
  $('#example').dataTable( {
         "oLanguage": {
            "sProcessing":   "Processando...",
